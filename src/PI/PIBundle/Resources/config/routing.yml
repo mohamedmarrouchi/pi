@@ -1,0 +1,14 @@
+home:
+    path:     /home
+    defaults: { _controller: PIPIBundle:PI:home }
+
+Annonces:
+    path:     /Anonces
+    defaults: { _controller: PIPIBundle:PI:Annonces }
+
+contact:
+    path:     /contact
+    defaults: { _controller: PIPIBundle:PI:contact }
+check:
+    path:     /check
+    defaults: { _controller: PIPIBundle:PI:check }

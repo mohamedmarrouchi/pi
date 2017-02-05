@@ -1,0 +1,10 @@
+pi_user:
+    resource: "@PIUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pipi:
+    resource: "@PIPIBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
